@@ -1,0 +1,39 @@
+<!-- how to add JavaScript in HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS file - Added with HTML</title>
+</head>
+
+<body>
+
+    <!-- internal js -->
+    <script>
+        // alert("This is Internal JS")
+    </script>
+
+    <!-- link JS with HTML -->
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<!-- 
+    covering topic:
+        - way to add js in html
+            1. inline JS
+                <body onload="alert("This is inline js");">
+                </body>
+                # not recomended
+
+            2. Internal JS
+                i. Script tag ke css er moto head a rakhbo na, rakhbo body te
+                ii. Body tag er ekdom shese Script tag rakhbo.
+
+            3. External JS
+                # recomended
+                -> Body tag er ekdom shese JS ta link korbo HTML er sathe.
+-->
