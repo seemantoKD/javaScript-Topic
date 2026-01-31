@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | traversing and manipulating</title>
+</head>
+
+<body>
+    <ol class="students-list">
+        <li class="student-a">Student A</li>
+        <li class="student-b">Student B</li>
+        <li class="student-c">Student C</li>
+    </ol>
+
+    <!------- JS ------->
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+<!--
+    learning:
+        ~ DOM tree:
+            -> parent child bonding
+
+        1. Manipulating:
+            # creating
+            # inserting
+            # removing 
+                    - elements
+
+        2. Traversing:
+            # selecting an element from another elements
+
+            -> there are 3 direction for traversing
+                1. Donwards
+                    -> upor theke niche, Basically parent dore dore niche giye child kuje
+                        # using this property:
+                            i. querySelector/querySelectorAll
+                            ii. children
+
+                2. Upwards
+                    -> nich theke upore, Basically child dore dore upore giye parent kuje
+                        # using this property
+                            i. parentElement
+                            
+                3. Sideways
+                    -> Basically sibling kuje
+                        # using this property
+                            i. nextElementSibling,previousElementSibling
+                            ii. parentElement + children + index
+
+    Note: 
+        1. document. use korle full html file kuje but specific kunu kichu. use korle just oi specific
+            jinis er vitor thekei kujbe. Like: students-list. -> eta just students-list er vitore kujbe
+            full html theke kujbe na.
+
+        2. querySelector just ekta element at a time select korte pare.
+-->
