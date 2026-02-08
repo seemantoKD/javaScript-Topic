@@ -1,0 +1,20 @@
+// DOM events
+// 1. Event object
+    - event type: change, submit, load, unload, open, play,
+            canplay, pause, playing, progress, ended, resize,
+            scroll, toggle, etc.
+    - properties: type, target, preventDefault()
+
+// 2. MouseEvent object
+// 3. KeyboardEvent object
+// 4. FocusEvent object
+// 5. ClipboardEvent object
+// 6. DragEvent object
+
+
+// NOTE:
+    ? change event kun kun html element er sathe kaj korte pare
+    => <input/> - text, number, password, email, color, radio, checkbox, search, time,
+            date, datetime, week, month, url, tel, file,
+        <select>
+        <textarea>
