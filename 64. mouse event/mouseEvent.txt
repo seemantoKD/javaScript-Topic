@@ -1,0 +1,13 @@
+// Mouse event sob tag/element er sathe kaj kore
+except: 
+    01. <html>
+    02. <head>
+    03. <meta>
+    04. <title>
+    05. <br>
+    06. <style>
+    07. <script>
+    08. <iframe>
+    09. <param>
+    10. <base>
+    11. <bdo>
