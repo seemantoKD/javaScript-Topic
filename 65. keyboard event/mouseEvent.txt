@@ -1,0 +1,5 @@
+// Keyboard event
+// 1. keydown -> pressing a key, can repeat
+// 2. keypress (may not supported by some browser)
+// 3. keyup
+// some properties: key, keyCode, code, shiftKey, ctlKey, repeat
