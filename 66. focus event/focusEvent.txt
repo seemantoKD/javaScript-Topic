@@ -1,0 +1,10 @@
+// focus event object
+// # html er sob element er sathe kaj kore except following element:
+// <br> <head> <title> <html> <iframe>
+// <meta> <param> <script> <style> <base>
+// <bdo>
+
+// 1. onblur - element focus lose korle
+// 2. onfocus - element ta focus paile
+// 3. onfocusin
+// 4. onfocusout
