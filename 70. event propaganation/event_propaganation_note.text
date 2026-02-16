@@ -1,0 +1,20 @@
+// event propaganation ki?
+// suppose duita div ache. 1. inner div, 2. outer div
+// duitar sathei event jukto... tahole click korle kunta 
+// age call hobe setai maintain kora jay, propaganation
+// er concept diye.
+// event propaganation 2 prokar
+// 1. bubbling(innermost) -> call: first a child then parent(default system false thake)
+// 2. capturing(outermost) -> call: first a parent then child
+// ei call ta kivabe handle korbo setai index.html and main.js 
+// a dekhbo.
+ 
+// false thakle -> call: child first then parent
+// true thakle -> call: parent first then child
+
+// event propaganation
+1. ki, keno use kora hoy
+2. event propaganation koto prokar
+3. sokol prokarer working principle line by line explain
+4. kuntar por kunta call hobe
+5. user er icchamoto kivabe call hobe setai
