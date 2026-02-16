@@ -1,0 +1,8 @@
+// JS BOM
+// JS Timing events methodss
+// i. setTimeOut(), ii. setInterval()
+// kunu nirdisto somoy pore kunu nirdisto kaj korte
+// _caile oi timing ta handle kora jay timing events
+// method diye.
+// setTimeOut -> ekti nirdisto smy pore kunu ekta kaj korbe
+// setInterval -> nirdisto smy por ekta kaj bar bar repeat korbe
