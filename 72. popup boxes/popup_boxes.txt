@@ -1,0 +1,4 @@
+// JS BOM
+// Popup boxes - alert, confirm, prompt
+// keno and kivabe popup boxes use korte hoy
+// alert box
