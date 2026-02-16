@@ -1,0 +1,6 @@
+~ BOM
+=> JS ke Browser er sathe kotha bolar sujug kore dey
+
+# location object use kore present time a j page a achi
+tar location ber korte pari. and caile user notun arekta
+page open korte parbe.
